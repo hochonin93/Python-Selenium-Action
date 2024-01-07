@@ -33,8 +33,8 @@ for option in options:
     
 driver = webdriver.Chrome(options = chrome_options)
 
-driver.get('http://github.com')
-print(driver.title)
+driver.get('https://ipinfo.io/json')
+page_source = driver.page_source
 with open('./GitHub_Action_Results.txt', 'w') as f:
-    f.write(f"This was written with a GitHub action {driver.title}")
+    f.write(f"{page_source}")
 
