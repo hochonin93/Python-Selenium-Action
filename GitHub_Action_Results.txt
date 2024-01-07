@@ -1,11 +1,11 @@
 <html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">{
-  "ip": "20.109.39.21",
-  "city": "Boydton",
-  "region": "Virginia",
+  "ip": "172.183.32.32",
+  "city": "Chicago",
+  "region": "Illinois",
   "country": "US",
-  "loc": "36.6676,-78.3875",
+  "loc": "41.8500,-87.6500",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "23917",
-  "timezone": "America/New_York",
+  "postal": "60666",
+  "timezone": "America/Chicago",
   "readme": "https://ipinfo.io/missingauth"
 }</pre></body></html>
