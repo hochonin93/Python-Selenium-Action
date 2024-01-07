@@ -1,1 +1,11 @@
-This was written with a GitHub action GitHub: Let’s build from here · GitHub
+<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">{
+  "ip": "13.88.99.132",
+  "city": "San Jose",
+  "region": "California",
+  "country": "US",
+  "loc": "37.3394,-121.8950",
+  "org": "AS8075 Microsoft Corporation",
+  "postal": "95103",
+  "timezone": "America/Los_Angeles",
+  "readme": "https://ipinfo.io/missingauth"
+}</pre></body></html>
