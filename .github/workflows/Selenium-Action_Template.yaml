@@ -1,6 +1,10 @@
 name: Run Selenium On GitHub Action
 on:
   workflow_dispatch:
+  schedule:
+    # Runs at 05:00 UTC every day
+    - cron: '*/5 * * * *'
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -23,7 +27,7 @@ jobs:
         run: sudo apt-get install xvfb
 
       - name: Running the Python script
-        run: python Selenium-Template.py
+        run: python test_requests_ip.py
         
       - name: Commit and Push The Results From Python Selenium Action
         run: |
